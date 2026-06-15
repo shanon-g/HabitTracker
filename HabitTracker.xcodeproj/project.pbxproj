@@ -32,11 +32,6 @@
 			path = HabitTrackerTests;
 			sourceTree = "<group>";
 		};
-		CE7DCB6E2FDBDDB600976C06 /* Documentation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Documentation;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +51,6 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
-				CE7DCB6E2FDBDDB600976C06 /* Documentation */,
 				000000000000000000000010 /* HabitTracker */,
 				CE7DCB4B2FDBDD7F00976C06 /* HabitTrackerTests */,
 				000000000000000000000020 /* Products */,
@@ -87,7 +81,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				000000000000000000000010 /* HabitTracker */,
-				CE7DCB6E2FDBDDB600976C06 /* Documentation */,
 			);
 			name = HabitTracker;
 			productName = MyApp;
