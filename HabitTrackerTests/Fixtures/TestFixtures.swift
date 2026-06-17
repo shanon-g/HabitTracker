@@ -1,5 +1,5 @@
 import Foundation
-@testable import HabitTracker
+@testable import AcademyHabitTracker
 
 // MARK: - Test Fixtures
 //

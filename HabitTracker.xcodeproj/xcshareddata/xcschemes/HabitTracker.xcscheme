@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "000000000000000100000000"
-               BuildableName = "HabitTracker.app"
+               BuildableName = "AcademyAcademyHabitTracker.app"
                BlueprintName = "HabitTracker"
                ReferencedContainer = "container:HabitTracker.xcodeproj">
             </BuildableReference>
@@ -35,7 +35,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE7DCB492FDBDD7F00976C06"
+               BlueprintIdentifier = "CE2FC20D2FE2563E009E7DA4"
                BuildableName = "HabitTrackerTests.xctest"
                BlueprintName = "HabitTrackerTests"
                ReferencedContainer = "container:HabitTracker.xcodeproj">
@@ -59,7 +59,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000100000000"
-            BuildableName = "HabitTracker.app"
+            BuildableName = "AcademyAcademyHabitTracker.app"
             BlueprintName = "HabitTracker"
             ReferencedContainer = "container:HabitTracker.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000100000000"
-            BuildableName = "HabitTracker.app"
+            BuildableName = "AcademyAcademyHabitTracker.app"
             BlueprintName = "HabitTracker"
             ReferencedContainer = "container:HabitTracker.xcodeproj">
          </BuildableReference>
