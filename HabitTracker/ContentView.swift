@@ -37,6 +37,8 @@ struct MVStack: View {
     }
 }
 
+// MARK: - Preview
+
 #Preview {
     ArchitectureSelectorView()
         .modelContainer(ModelContainer.preview)
