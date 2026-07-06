@@ -41,3 +41,5 @@ struct MVStack: View {
     ArchitectureSelectorView()
         .modelContainer(ModelContainer.preview)
 }
+
+// Hello World
