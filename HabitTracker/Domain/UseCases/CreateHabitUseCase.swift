@@ -19,7 +19,7 @@ struct CreateHabitUseCase: Sendable {
         description: String = "",
         frequency: HabitFrequency = .daily
     ) async throws -> Habit {
-        let trimmed = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        let trimmed = name.trimmingCharacters(in: .newlines)
         guard !trimmed.isEmpty else {
             throw HabitError.emptyName
         }
