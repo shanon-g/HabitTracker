@@ -46,3 +46,5 @@ struct MVVMStack: View {
     ArchitectureSelectorView()
         .modelContainer(ModelContainer.preview)
 }
+
+// test the pull request trigger
