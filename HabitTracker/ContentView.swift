@@ -22,17 +22,7 @@ struct ArchitectureSelectorView: View {
     @State private var selectedTab = ArchitectureTab.mv
 
     var body: some View {
-        TabView(selection: $selectedTab) {
-            Tab("MV", systemImage: "m.circle.fill", value: ArchitectureTab.mv) {
-                MVStack(modelContext: modelContext)
-            }
-            Tab("MVVM", systemImage: "v.circle.fill", value: ArchitectureTab.mvvm) {
-                MVVMStack(modelContext: modelContext)
-            }
-            Tab("TCA", systemImage: "t.circle.fill", value: ArchitectureTab.tca) {
-                TCAStack(modelContext: modelContext)
-            }
-        }
+        MVVMStack(modelContext: modelContext)
     }
 }
 
@@ -45,24 +35,10 @@ enum ArchitectureTab: Equatable {
 // All three architectures share the same underlying SwiftData store —
 // a key property of the domain-layer abstraction.
 
-struct MVStack: View {
-    let modelContext: ModelContext
-    var body: some View {
-        MVRootView(repository: SwiftDataHabitRepository(modelContext: modelContext))
-    }
-}
-
 struct MVVMStack: View {
     let modelContext: ModelContext
     var body: some View {
         MVVMRootView(repository: SwiftDataHabitRepository(modelContext: modelContext))
-    }
-}
-
-struct TCAStack: View {
-    let modelContext: ModelContext
-    var body: some View {
-        TCAAppView(repository: SwiftDataHabitRepository(modelContext: modelContext))
     }
 }
 
