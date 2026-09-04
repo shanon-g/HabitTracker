@@ -33,8 +33,11 @@ struct HabitModelTests {
 
     @Test func habitEquality() {
         let id = UUID()
-        let a = Habit(id: id, name: "Yoga")
-        let b = Habit(id: id, name: "Yoga")
+        let createdDate = Date()
+        let a = Habit(id: id, name: "Yoga", createdAt: createdDate)
+        let b = Habit(id: id, name: "Yoga", createdAt: createdDate)
+//        let a = Habit(id: id, name: "Yoga")
+//        let b = Habit(id: id, name: "Yoga")
         #expect(a == b)
     }
 
