@@ -47,4 +47,4 @@ struct MVVMStack: View {
         .modelContainer(ModelContainer.preview)
 }
 
-// test the pull request triggerr
+// test the trigger pr & merge
