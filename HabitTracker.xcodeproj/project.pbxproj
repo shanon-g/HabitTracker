@@ -18,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* HabitTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		741D4032304A5EB1003B861C /* HabitTracker.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = file; path = HabitTracker.xctestplan; sourceTree = "<group>"; };
 		CE7DCB4A2FDBDD7F00976C06 /* HabitTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HabitTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -56,6 +57,7 @@
 		000000000000000000000001 = {
 			isa = PBXGroup;
 			children = (
+				741D4032304A5EB1003B861C /* HabitTracker.xctestplan */,
 				CE7DCB6E2FDBDDB600976C06 /* Documentation */,
 				000000000000000000000010 /* HabitTracker */,
 				CE7DCB4B2FDBDD7F00976C06 /* HabitTrackerTests */,
